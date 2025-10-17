@@ -1,1 +1,108 @@
 
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Amrit Paudel — Software Developer</title>
+  <meta name="description" content="Portfolio of Amrit Paudel — front-end, full-stack projects, and contact information." />
+  <link rel="stylesheet" href="styles.css">
+  <meta property="og:title" content="Amrit Paudel — Software Developer">
+  <meta property="og:description" content="Portfolio of Amrit Paudel — front-end, full-stack projects, and contact information.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0b1220">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#" aria-label="Home">Amrit Paudel</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="container">
+        <h1 id="hero-title">Hi — I'm Amrit Paudel</h1>
+        <p class="lead">I build accessible, performant web experiences using modern HTML, CSS, and JavaScript.</p>
+        <p class="cta-row">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn outline" href="resume.pdf" download>Download Resume</a>
+        </p>
+      </div>
+    </section>
+
+    <section id="about" class="container about" aria-labelledby="about-title">
+      <h2 id="about-title">About</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>Hello — I'm a web developer focused on building clean, user-centered interfaces and reliable front-end code. I enjoy solving UX problems, optimizing for performance, and shipping well-tested features.</p>
+          <p>Currently maintaining projects on GitHub and building a personal portfolio site. I welcome collaboration and opportunities to work on meaningful products.</p>
+          <p><strong>Location:</strong> (add location) • <strong>Email:</strong> (add email)</p>
+        </div>
+        <div class="about-aside" aria-hidden="true">
+          <div class="avatar" role="img" aria-label="Photo of Amrit Paudel"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="container projects" aria-labelledby="projects-title">
+      <h2 id="projects-title">Selected Projects</h2>
+      <ul class="project-list">
+        <li class="project-card">
+          <h3><a href="https://github.com/AmritPaudel77/Portfolio" target="_blank" rel="noopener">Portfolio Website</a></h3>
+          <p>Personal website built with semantic HTML and responsive CSS. A clean single-page layout to present projects, skills, and contact details.</p>
+          <p class="meta"><strong>Tech:</strong> HTML • CSS</p>
+        </li>
+
+        <li class="project-card">
+          <h3><a href="#" target="_blank" rel="noopener">Project Two — (placeholder)</a></h3>
+          <p>Short description of the project, the problem solved, and a notable implementation detail or result (add your real content here).</p>
+          <p class="meta"><strong>Tech:</strong> JavaScript • API • Accessibility</p>
+        </li>
+
+        <li class="project-card">
+          <h3><a href="#" target="_blank" rel="noopener">Project Three — (placeholder)</a></h3>
+          <p>Short description of the project, the impact, and where to see the code or demo.</p>
+          <p class="meta"><strong>Tech:</strong> React • Node.js</p>
+        </li>
+      </ul>
+      <p class="more"><a href="https://github.com/AmritPaudel77" target="_blank" rel="noopener">View all projects on GitHub →</a></p>
+    </section>
+
+    <section id="skills" class="container skills" aria-labelledby="skills-title">
+      <h2 id="skills-title">Skills</h2>
+      <p class="skills-grid" role="list">
+        <span role="listitem">HTML</span>
+        <span role="listitem">CSS (Flexbox, Grid)</span>
+        <span role="listitem">Responsive Design</span>
+        <span role="listitem">JavaScript (ES6+)</span>
+        <span role="listitem">Accessibility (a11y)</span>
+        <span role="listitem">Git & GitHub</span>
+      </p>
+    </section>
+
+    <section id="contact" class="container contact" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact</h2>
+      <p>If you'd like to work together or have questions, please reach out:</p>
+      <ul class="contact-list">
+        <li>Email: <a href="mailto:you@example.com">you@example.com</a> (replace with your email)</li>
+        <li>GitHub: <a href="https://github.com/AmritPaudel77" target="_blank" rel="noopener">github.com/AmritPaudel77</a></li>
+        <li>LinkedIn: <a href="#" target="_blank" rel="noopener">(add link)</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p>© <span id="year"></span> Amrit Paudel — Built with semantic HTML & responsive CSS.</p>
+    </div>
+    <script src="script.js" defer></script>
+  </footer>
+</body>
+</html>
